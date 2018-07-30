@@ -1,0 +1,33 @@
+{
+  "name": "@reasonableconsulting/compare",
+  "description": "ReasonML helpers for generating cmp functions.",
+  "version": "0.0.0",
+  "license": "MPL-2.0",
+  "repository": "reasonableconsulting/compare",
+  "author": "Reasonable Consulting <contact@reasonable.consulting> (https://reasonable.consulting)",
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)"
+  ],
+  "main": "src/compare.bs.js",
+  "files": [
+    "src/*.bs.js",
+    "src/*.re",
+    "bsconfig.json",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^4.0.0"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "Comparator",
+    "Sort"
+  ]
+}
